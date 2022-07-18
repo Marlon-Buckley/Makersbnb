@@ -1,3 +1,8 @@
+## Domain Model  
+
+
+![alt text](image.png "Domain Model")
+
 ## How to create a new branch
 
 `$ git switch -c joe-branch`
