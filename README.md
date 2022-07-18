@@ -9,7 +9,10 @@ After changes, push to your branch:
  `$ git push --set-upstream origin joe-branch' (only the first time you push otherwise it is 
  `$ git push`
 
- Then do a Pull request, set Reviewers for your PR and then Merge.  
+ Then do a Pull request, set Reviewers for your PR and then Merge.
+
+ Kyle's comment
+
 
 
 
