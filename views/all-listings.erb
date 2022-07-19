@@ -1,1 +1,8 @@
-"Casa Amore, Full of islanders!, 100"
+<ul>
+  <% @all_listings.each do |listing| %>
+    <li>
+      Name: <%= listing.name %> Description: <%= listing.description %> Price Per Night: <%= listing.price %>
+
+    </li>
+  <% end %>
+</ul>

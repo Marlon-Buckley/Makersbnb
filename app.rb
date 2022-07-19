@@ -1,6 +1,8 @@
 require 'sinatra/base'
+require_relative './lib/view_listings'
+require_relative './lib/listing'
 #testpush
-
+#lib/listing.rb
 class Makersbnb < Sinatra::Base
 
   get '/test' do
@@ -8,6 +10,8 @@ class Makersbnb < Sinatra::Base
   end
 
   get '/all-listings' do
+    @all_listings = View_listings.all
+    p @all_listings
     erb(:"all-listings")
   end
 

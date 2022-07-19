@@ -1,9 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/marlon.buckley/Projects/Makersbnb/app.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/app.rb": {
         "lines": [
           1,
+          1,
+          1,
           null,
           null,
           1,
@@ -12,6 +14,8 @@
           1,
           null,
           null,
+          1,
+          1,
           1,
           1,
           null,
@@ -20,47 +24,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/all_listings_page_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/test_page_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/view_listings_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/View_listings.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/view_listings.rb": {
         "lines": [
           1,
           1,
@@ -78,21 +42,21 @@
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           0,
           null,
-          1,
-          1,
-          3,
+          0,
+          0,
+          0,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/Listing.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/listing.rb": {
         "lines": [
           1,
           null,
@@ -102,14 +66,85 @@
           1,
           null,
           1,
-          3,
-          3,
-          3,
+          6,
+          6,
+          6,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/all_listings_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/test_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/units/view_listings_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/View_listings.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
+          2,
+          6,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1658231152
+    "timestamp": 1658238915
   }
 }

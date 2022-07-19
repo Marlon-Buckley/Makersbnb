@@ -1,5 +1,5 @@
 require 'PG'
-require 'Listing'
+require_relative 'listing'
 
 
 class View_listings
