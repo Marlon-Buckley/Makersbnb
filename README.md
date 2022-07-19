@@ -8,16 +8,16 @@
 To setup the database:
 
 * Connect to psql
-* Create the database using the psql command `CREATE DATABASE listings;`
-* Connect to the database using the psql command `\c listings`;
+* Create the database using the psql command `CREATE DATABASE makersbnb;`
+* Connect to the database using the psql command `\c makersbnb`;
 * Run this query CREATE TABLE listings(id SERIAL PRIMARY KEY, name VARCHAR(250), description VARCHAR(1000), price VARCHAR(10));
 * Populate your table with a row by running `INSERT INTO listings (name, description, price) values ('waterfront mansion', 'spacious place by the sea', 500);`
 
 To setup the test database:
 
 * Connect to psql
-* Create the database using the psql command `CREATE DATABASE listings_test;`
-* Connect to the database using the psql command `\c listings_test`;
+* Create the database using the psql command `CREATE DATABASE makersbnb_test;`
+* Connect to the database using the psql command `\c makersbnb_test`;
 * Run this query CREATE TABLE listings(id SERIAL PRIMARY KEY, name VARCHAR(250), description VARCHAR(1000), price VARCHAR(10));
 * Populate your table with a row by running `INSERT INTO listings_test (name, description, price) values ('waterfront mansion', 'spacious place by the sea', 500);`
 

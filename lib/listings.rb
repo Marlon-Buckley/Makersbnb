@@ -2,7 +2,7 @@ require 'PG'
 require_relative 'listing'
 
 
-class View_listings
+class Listings
 
   attr_reader :name, :price, :description #we may want to add ID here later one
 
