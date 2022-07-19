@@ -4,7 +4,7 @@ require 'sinatra/base'
 class Makersbnb < Sinatra::Base
 
   get '/test' do
-    "Testing"
+    "Testing not resting."
   end
 
 

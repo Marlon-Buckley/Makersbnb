@@ -3,11 +3,11 @@ require 'pg'
 p "Setting up test database..."
 
 def setup_test_database
-  connection = PG.connect(dbname: 'chitter_test')
-  connection.exec("TRUNCATE peeps;")
+  connection = PG.connect(dbname: 'makersbnb_test')
+  connection.exec("TRUNCATE listings;")
 end
 
 def add_row_to_test_database
-  connection = PG.connect(dbname: 'chitter_test')
-  connection.exec("INSERT INTO peeps (message) values ('This is a peep!');")
+  connection = PG.connect(dbname: 'makersbnb_test')
+  connection.exec("INSERT INTO listings (name, description, price) VALUES ('Casa Amore', 'Full of islanders!', '100');")
 end
