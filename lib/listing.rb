@@ -10,4 +10,7 @@ class Listing
     @price = price
     @description = description
   end
+
+  def self.add
+  end
 end
