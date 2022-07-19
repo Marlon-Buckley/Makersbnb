@@ -23,6 +23,6 @@ After changes, push to your branch:
 
   * I'd like to see a list of all listings on the site
 
-
+---
 
 
