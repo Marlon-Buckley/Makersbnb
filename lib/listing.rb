@@ -11,6 +11,4 @@ class Listing
     @description = description
   end
 
-  def self.add
-  end
 end

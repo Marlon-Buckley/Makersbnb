@@ -1,15 +1,18 @@
 require 'listing'
+require 'PG'
+require 'pp'
 
 RSpec.describe Listing do
   context ".add method" do
-    xit "add a listing" do
-      new_listing = Listing.add(name: "Tree House", price: "3000", description: "Woody, and cosy")
-      p new_listing
-      database = View_listings.all
-      p database
+    it "add a listing" do
+      new_listing = Listings.add(name: "Tree House", description: "leafy and green", price: "500")
+      database = Listings.all
       expect(database.last.name).to eq "Tree House"
-      expect(database.last).to eq new_listing
+      expect(database.last.description).to eq "leafy and green"
+      expect(database.last.price).to eq "500"
     end
   end
 end
+
+
 

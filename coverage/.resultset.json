@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/engineer/Documents/code/Makersbnb/app.rb": {
+      "/Users/emilybayliss/Makersbnb/app.rb": {
         "lines": [
           1,
           1,
@@ -24,7 +24,7 @@
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/lib/listings.rb": {
+      "/Users/emilybayliss/Makersbnb/lib/listings.rb": {
         "lines": [
           1,
           1,
@@ -42,21 +42,31 @@
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           0,
           null,
-          2,
-          2,
-          6,
+          3,
+          3,
+          10,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          1,
           null,
           null,
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/lib/listing.rb": {
+      "/Users/emilybayliss/Makersbnb/lib/listing.rb": {
         "lines": [
           1,
           null,
@@ -66,17 +76,15 @@
           1,
           null,
           1,
-          6,
-          6,
-          6,
+          10,
+          10,
+          10,
           null,
-          null,
-          1,
           null,
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/spec/features/all_listings_page_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/all_listings_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -88,7 +96,7 @@
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/spec/features/test_page_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/test_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -98,26 +106,29 @@
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/spec/features/units/add_listing_db_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/units/add_listing_db_spec.rb": {
         "lines": [
+          1,
+          1,
           1,
           null,
           1,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           null,
           null
         ]
       },
-      "/Users/engineer/Documents/code/Makersbnb/spec/features/units/view_listings_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/units/view_listings_spec.rb": {
         "lines": [
           1,
           null,
@@ -135,6 +146,6 @@
         ]
       }
     },
-    "timestamp": 1658243237
+    "timestamp": 1658246535
   }
 }
