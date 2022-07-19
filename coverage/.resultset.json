@@ -12,8 +12,21 @@
           1,
           null,
           null,
+          1,
+          1,
+          null,
           null,
           1,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/all_listings_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -26,8 +39,33 @@
           null,
           null
         ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/view_listings_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/lib/View_listings.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1658224212
+    "timestamp": 1658227393
   }
 }

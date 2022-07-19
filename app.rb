@@ -7,6 +7,9 @@ class Makersbnb < Sinatra::Base
     "Testing not resting."
   end
 
+  get '/all-listings' do
+    erb(:"all-listings")
+  end
 
   run! if app_file == $0
 end
