@@ -36,7 +36,16 @@ After changes, push to your branch:
 
  Kyle's comment
 
+---
 
+### Viewing listings
+  
+  * As a user of MakersBnB
 
+  * So that I can choose a place to stay
+
+  * I'd like to see a list of all listings on the site
+
+---
 
 
