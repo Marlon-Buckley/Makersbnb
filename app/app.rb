@@ -1,6 +1,6 @@
 require 'sinatra/base'
-require_relative './lib/listings'
-require_relative './lib/listing'
+require_relative '../lib/listings'
+require_relative '../lib/listing'
 #testpush
 #lib/listing.rb
 class Makersbnb < Sinatra::Base
