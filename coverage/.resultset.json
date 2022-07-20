@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/marlon.buckley/Projects/Makersbnb/app/app.rb": {
+      "/Users/emilybayliss/Makersbnb/app/app.rb": {
         "lines": [
           1,
           1,
@@ -24,24 +24,26 @@
           null,
           null,
           1,
-          1,
+          2,
+          2,
+          2,
+          null,
+          null,
           1,
           1,
           null,
           null,
           1,
-          0,
-          null,
-          null,
           1,
-          0,
+          1,
+          1,
           null,
           null,
           1,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/listings.rb": {
+      "/Users/emilybayliss/Makersbnb/lib/listings.rb": {
         "lines": [
           1,
           1,
@@ -59,31 +61,31 @@
           null,
           null,
           1,
-          3,
-          3,
+          4,
+          4,
           null,
           0,
           null,
-          3,
-          3,
-          10,
+          4,
+          4,
+          14,
           null,
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           0,
           null,
           null,
-          1,
+          2,
           null,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/listing.rb": {
+      "/Users/emilybayliss/Makersbnb/lib/listing.rb": {
         "lines": [
           1,
           null,
@@ -93,15 +95,14 @@
           1,
           null,
           1,
-          10,
-          10,
-          10,
+          14,
+          14,
+          14,
           null,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/app_controller.rb": {
         "lines": [
           1,
           1,
@@ -109,30 +110,9 @@
           1,
           1,
           null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/home_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/registrations_controller.rb": {
         "lines": [
           1,
           1,
@@ -153,7 +133,6 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/sessions_controller.rb": {
         "lines": [
           1,
           1,
@@ -220,7 +199,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/test_page_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/test_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -230,7 +209,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/add_listing_db_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/units/add_listing_db_spec.rb": {
         "lines": [
           1,
           1,
@@ -252,7 +231,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/view_listings_spec.rb": {
+      "/Users/emilybayliss/Makersbnb/spec/features/units/view_listings_spec.rb": {
         "lines": [
           1,
           null,
@@ -270,6 +249,5 @@
         ]
       }
     },
-    "timestamp": 1658322649
   }
 }

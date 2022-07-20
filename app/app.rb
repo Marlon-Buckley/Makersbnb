@@ -24,12 +24,14 @@ class Makersbnb < Sinatra::Base
     erb(:"all-listings")
   end
 
-  get '/all-listings/add' do
-    erb(:"/all-listings/add")
+  get '/add' do
+    erb(:"/add")
   end
   
-  post '/all-listings/add' do
+  post '/all-listings' do
+    p params
     Listings.add(name: params[:name], description: params[:description], price: params[:price])
+    redirect '/all-listings'
   end
 
   run! if app_file == $0
