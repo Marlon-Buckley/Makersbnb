@@ -5,7 +5,16 @@
         "lines": [
           1,
           1,
+          null,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           1,
@@ -94,12 +103,75 @@
           null
         ]
       },
-      "/Users/emilybayliss/Makersbnb/spec/features/add_listing_page_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          1,
+          null,
+          null
+        ]
+      },
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/add_listing_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/all_listings_page_spec.rb": {
+        "lines": [
           1,
           1,
           1,
@@ -110,30 +182,19 @@
           null
         ]
       },
-      "/Users/emilybayliss/Makersbnb/spec/features/all_listings_page_spec.rb": {
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/registration/user_can_sign_up_and_in_spec.rb": {
         "lines": [
           1,
+          null,
           1,
           1,
           1,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/emilybayliss/Makersbnb/spec/features/registration/user_can_sign_up_and_in_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          1,
+          0,
+          0,
           null,
           null
         ]
@@ -188,6 +249,5 @@
         ]
       }
     },
-    "timestamp": 1658317551
   }
 }

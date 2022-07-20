@@ -7,6 +7,10 @@ ruby '3.0.2'
 gem 'pg'
 gem 'sinatra'
 gem 'webrick'
+gem 'sinatra-activerecord'
+gem 'rake'
+gem 'database_cleaner-active_record'
+gem 'bcrypt'
 
 group :test do
   gem 'capybara'
