@@ -27,6 +27,12 @@
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           null,
           null,
@@ -90,6 +96,7 @@
           14,
           14,
           14,
+          14,
           null,
           null,
           null
@@ -97,6 +104,8 @@
       },
       "/Users/emilybayliss/Makersbnb/spec/features/add_listing_page_spec.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           1,
@@ -166,6 +175,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null,
@@ -192,6 +202,6 @@
         ]
       }
     },
-    "timestamp": 1658328912
+    "timestamp": 1658333075
   }
 }

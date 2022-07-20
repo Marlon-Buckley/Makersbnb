@@ -3,13 +3,14 @@ require 'PG'
 
 class Listing
 
-  attr_reader :name, :price, :description, :daterange #we may want to add ID here later one
+  attr_reader :name, :price, :description, :available_to, :available_from #we may want to add ID here later one
 
-  def initialize(name:, price:, description:, daterange:)
+  def initialize(name:, price:, description:, available_to:, available_from:)
     @name = name
     @price = price
     @description = description
-    @daterange = daterange
+    @available_from = available_from
+    @available_to = available_to
   end
 
 end
