@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: makersbnb_user_auth #likely need to change to makersbnb
+  pool: 2
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: makersbnb_user_auth_test #also change potentially?
+  pool: 2 

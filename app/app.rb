@@ -1,6 +1,17 @@
 require 'sinatra/base'
+require 'sinatra/activerecord'
+#require 'sinatra/acticerecord/rake'
+
 require_relative '../lib/listings'
 require_relative '../lib/listing'
+require_relative '../lib/user'
+
+require_relative 'controllers/app_controller'
+require_relative 'controllers/home_controller'
+require_relative 'controllers/registrations_controller'
+require_relative 'controllers/sessions_controller'
+
+
 #testpush
 #lib/listing.rb
 class Makersbnb < Sinatra::Base
