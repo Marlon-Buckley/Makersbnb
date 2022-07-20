@@ -5,7 +5,16 @@
         "lines": [
           1,
           1,
+          null,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           1,
@@ -92,12 +101,88 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/add_listing_page_spec.rb": {
+      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/app_controller.rb": {
         "lines": [
           1,
           1,
           1,
           1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/registrations_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/add_listing_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
           0,
           0,
           0,
@@ -120,16 +205,17 @@
       },
       "/Users/marlon.buckley/Projects/Makersbnb/spec/features/registration/user_can_sign_up_and_in_spec.rb": {
         "lines": [
+          1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
           null,
           null
         ]
@@ -184,6 +270,6 @@
         ]
       }
     },
-    "timestamp": 1658315471
+    "timestamp": 1658322649
   }
 }
