@@ -1,6 +1,5 @@
 class Makersbnb < Sinatra::Base
   get '/registrations/new' do
-    p "route called"
     erb(:'/registrations/new')
   end
 

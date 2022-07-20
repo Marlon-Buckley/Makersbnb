@@ -1,11 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/marlon.buckley/Projects/Makersbnb/app/app.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/app/app.rb": {
         "lines": [
           1,
           1,
           null,
+          null,
+          1,
           1,
           1,
           null,
@@ -43,7 +45,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/listings.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/listings.rb": {
         "lines": [
           1,
           1,
@@ -85,7 +87,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/lib/listing.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/listing.rb": {
         "lines": [
           1,
           null,
@@ -103,7 +105,32 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/app_controller.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/lib/user.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          3,
+          3,
+          2,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/app/controllers/app_controller.rb": {
         "lines": [
           1,
           1,
@@ -112,55 +139,54 @@
           1,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
-          0,
+          2,
           null,
           null,
           1,
-          0,
+          1,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/home_controller.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/app/controllers/registrations_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/app/controllers/sessions_controller.rb": {
         "lines": [
           1,
           1,
           0,
           null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/registrations_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/app/controllers/sessions_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
           null,
           1,
           0,
@@ -179,23 +205,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/add_listing_page_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/all_listings_page_spec.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/add_listing_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -203,11 +213,27 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/registration/user_can_sign_up_and_in_spec.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/all_listings_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/registration/user_can_sign_up_and_in_spec.rb": {
         "lines": [
           1,
           null,
@@ -218,13 +244,13 @@
           1,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/test_page_spec.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/test_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -234,7 +260,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/add_listing_db_spec.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/units/add_listing_db_spec.rb": {
         "lines": [
           1,
           1,
@@ -256,7 +282,37 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Makersbnb/spec/features/units/view_listings_spec.rb": {
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/units/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kylemichaeltarbuck/Makers_BnB/spec/features/units/view_listings_spec.rb": {
         "lines": [
           1,
           null,
@@ -274,6 +330,6 @@
         ]
       }
     },
-    "timestamp": 1658323584
+    "timestamp": 1658333045
   }
 }
