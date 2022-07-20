@@ -1,7 +1,7 @@
 <ul>
   <% @all_listings.each do |listing| %>
     <li>
-      Name: <%= listing.name %> Description: <%= listing.description %> Price Per Night: <%= listing.price %>
+      Name: <%= listing.name %> Description: <%= listing.description %> Price Per Night: <%= listing.price %> Range of dates available: <%= listing.daterange %>
 
     </li>
   <% end %>

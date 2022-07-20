@@ -21,7 +21,7 @@ class Makersbnb < Sinatra::Base
   
   post '/all-listings' do
     p params
-    Listings.add(name: params[:name], description: params[:description], price: params[:price])
+    Listings.add(name: params[:name], description: params[:description], price: params[:price], daterange: params[:daterange])
     redirect '/all-listings'
   end
 
