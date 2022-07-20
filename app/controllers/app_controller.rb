@@ -4,7 +4,7 @@ class Makersbnb < Sinatra::Base
   enable :sessions
   enable :method_override
 
-  before '/' do
+  before '/' do #Will this conflict with app.rb?
     authenticate!
   end
 

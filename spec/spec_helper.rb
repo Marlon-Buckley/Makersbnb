@@ -21,6 +21,9 @@ require 'simplecov'
 require 'simplecov-console'
 
 require_relative './setup_test_database'
+require_relative 'support/database_cleaner'
+#require_relative 'support/activerecord_logger'
+
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
