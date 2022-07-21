@@ -27,7 +27,7 @@
 * `bundle exec rake db:create` (Only need to do this once. This creates both prod aka dev and test db's)
 
 ## Create  Table in auth db
-* `bundle exec rake db:create_migration NAME=create_users` 
+* `bundle exec rake db:create_migration NAME=create_users` #you may not need to run this if migrate folder already exists with file inside
 * `bundle exec rake db:migrate RACK_ENV=test`
 * `bundle exec rake db:migrate RACK_ENV=development` 
 
