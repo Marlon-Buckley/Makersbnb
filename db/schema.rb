@@ -14,6 +14,14 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_20_152456) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "listings", id: :serial, force: :cascade do |t|
+    t.string "name", limit: 250
+    t.string "description", limit: 1000
+    t.string "price", limit: 10
+    t.string "available_from", limit: 60
+    t.string "available_to", limit: 60
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.string "password_hash"

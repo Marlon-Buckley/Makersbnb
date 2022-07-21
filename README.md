@@ -22,12 +22,8 @@
 * Run this query CREATE TABLE listings(id SERIAL PRIMARY KEY, name VARCHAR(250), description VARCHAR(1000), price VARCHAR(10));
 * Populate your table with a row by running `INSERT INTO listings (name, description, price) values ('waterfront mansion', 'spacious place by the sea', 500);`
 
-## Setup Auth Prod/Test DB
-
-* `bundle exec rake db:create` (Only need to do this once. This creates both prod aka dev and test db's)
-
-## Create  Table in auth db
-* `bundle exec rake db:create_migration NAME=create_users` 
+## Create Users Table in both DBs
+* `bundle exec rake db:create_migration NAME=create_users` #you may not need to run this if migrate folder already exists with file inside
 * `bundle exec rake db:migrate RACK_ENV=test`
 * `bundle exec rake db:migrate RACK_ENV=development` 
 
